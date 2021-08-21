@@ -1,0 +1,28 @@
+@import '../constants';
+
+.filter-container {
+    width: 250px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-top: 20px;
+}
+
+.filter-content {
+    margin-bottom: 30px;
+}
+
+.filter-content button {
+    display: block;
+    margin: 7px 0;
+    border: none;
+    background-color: #FFFFFF;
+    color: #484848;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.filter-content button:hover {
+    color: $hb-orange-color;
+}

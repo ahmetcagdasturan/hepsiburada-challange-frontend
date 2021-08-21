@@ -1,0 +1,62 @@
+
+.card{
+    text-align: center;
+    float: right;
+}
+
+.card-logo {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.card:hover .add-to-cart-button {
+    display: block;
+}
+
+.card:hover .product-detail {
+    display: none;
+}
+
+.card img {
+    width: 96%;
+    margin-bottom: 10px;
+    transition: opacity 200ms ease;
+}
+
+.card-header {
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.card-content {
+    font-size: 12px;
+    line-height: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    text-align: left;
+    padding: 7px;
+}
+
+.card-border-style {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.add-to-cart-button {
+    display: none;
+}
+
+.add-to-cart-button > button{
+    width: 90%;
+    padding: 7px 0;
+    border-radius: 6px;
+    border:none;
+    margin: 20px auto;
+
+}

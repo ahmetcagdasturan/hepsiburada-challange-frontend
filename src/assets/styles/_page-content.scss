@@ -1,0 +1,10 @@
+@import '../styles/constants';
+
+.page-content {
+    max-width: $max-content-width;
+    min-width: $min-content-width;
+    margin: auto;
+}
+.content-wrapper {
+    display: flex;
+}

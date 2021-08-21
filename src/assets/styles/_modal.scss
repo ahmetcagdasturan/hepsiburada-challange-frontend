@@ -1,0 +1,47 @@
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background-color: #FFFFFF;
+    display: none;
+    border: 2px solid rgba(228, 228, 228, 0.6);
+    box-shadow: 0px 6px 12px rgba(50, 50, 71, .5);
+    border-radius: 4px;
+}
+
+.modal-header {
+    padding: 20px;
+    margin: auto;
+    color:#484848;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-footer {
+    padding: 0 20px 20px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-footer button {
+    margin-right: 10px;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.no-button {
+    background-color: #D65959;
+
+}
+
+.yes-button {
+   background-color: #90D659;
+}

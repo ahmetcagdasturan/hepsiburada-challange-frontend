@@ -1,0 +1,40 @@
+.my-cart-button {
+    height: 48px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: rgba(27, 31, 35, .30);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.my-cart-button:hover , .collapse-cart-menu:hover ~ .my-cart-button{ 
+    border-radius: 3px 3px 0 0;
+    border-bottom: 0px;
+    z-index: 2;
+}
+
+.my-cart-button:hover + .collapse-cart-menu , .collapse-cart-menu:hover{
+    display: block;
+}
+
+.collapse-cart-menu {
+    position: absolute;
+    right: 0;
+    top: 47px;
+    overflow-y: auto;
+    width: 360px;
+    height: 360px;
+    border: 1px solid rgba(0, 0, 0, 0.15);;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    display: none;
+    z-index: 1;
+}
+
+.my-cart-container {
+    position: relative;
+}

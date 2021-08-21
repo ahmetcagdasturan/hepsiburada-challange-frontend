@@ -1,0 +1,21 @@
+
+.product-number-badge {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: orangered;
+    color:white;
+    text-align: center;
+    font-size: smaller;
+    position: absolute;
+    top:0;
+    right:0;
+    transform: translate(40%,-40%);
+}
+
+.product-number-badge > label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,21 @@
+@import '../constants';
+
+.sort-content {
+    margin-bottom: 30px;
+}
+
+.sort-content button {
+    display: block;
+    margin: 7px 0;
+    border: none;
+    background-color: #FFFFFF;
+    color: #484848;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.sort-content button:hover {
+    color: $hb-orange-color;
+}
